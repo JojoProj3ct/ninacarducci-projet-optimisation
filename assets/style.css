@@ -368,8 +368,15 @@ input[type="submit"] {
   max-width: 100%;
   height: auto;
 }
-/* .slider-img {
+.slider-img {
   width: 100%;
-  height: 520px;
-  object-fit: cover;
-} */
+  height: auto;
+  display: block;
+}
+
+.picture img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
